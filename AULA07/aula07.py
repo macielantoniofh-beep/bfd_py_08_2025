@@ -64,5 +64,19 @@
 # produto["estoque"] += 10
 # print(produto)
 
-#11
-print("Olá!")
+
+
+import numpy as np
+
+# Cria um tabuleiro de xadrez vazio usando list comprehension
+tabuleiro_vazio = [['[ ]' for _ in range(8)] for _ in range(8)]
+# Adiciona as peças brancas (minúsculas)
+tabuleiro_vazio[0] = ['tor', 'cav', 'bis', 'rai', 'rei', 'bis', 'cav', 'tor']
+# Adiciona os peões brancos
+tabuleiro_vazio[1] = ['pea' for _ in range(8)]
+# Adiciona os peões pretos
+tabuleiro_vazio[6] = ['pea' for _ in range(8)]
+# Adiciona as peças pretas (maiúsculas)
+tabuleiro_vazio[7] = ['TOR', 'CAV', 'BIS', 'RAI', 'REI', 'BIS', 'CAV', 'TOR']
+# Imprime o tabuleiro usando a biblioteca numpy para melhor visualização
+print(np.matrix(tabuleiro_vazio))

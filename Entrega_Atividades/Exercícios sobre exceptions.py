@@ -1,40 +1,3 @@
-#ERROS E EXCEÇÕES
-#INDENTIFICAR E SOLUCIONAR
-
-# GERALMENTE ERROS DE SYNTAX - USAR OS CARACTERES QUE TEM QUE SER
-# TYPERERROR - EXCEÇÕES - QUE NAA SAO ERROS PROPRIAMENTE DITO
-
-#TRABALHANDO PARALELO COM OUTRAS BIBLIOTECA - TEM ERROS PRÓPRIOS - OLHAR A DOCUMENTAÇÃO E CONSULTA
-
-# TAB - INTENTAÇÃO  
-
-#LIDANDO COM EXCEÇÕES
-#TRY, EXCEPT, ELSE, FINALLY, RAISE
-
-#SE USAR O TRY TEM QUE TER O EXCEPT
-
-#É UMA FORMA DE DEVOLVER ALGUMA ORIENTAÇÃO NO ERRO OCORRIDO
-#INFORMAÇÕES IMPROCEDENTES, CONGESTIONAMENTO, FALTA DE SINCRONIA DO BANCO DE DADOS, AFINS
-
-#FOTO 18:50
-
-#FINALLY RODA INDEPENDENTE ERRO
-#PARA FECHAR A APLICAÇÃO E NAO OCUPA ESPAÇO NA MEMORIA  ----
-
-#RAISE FOTO 19:04
-
-#CRIANDO UM NOVO TIPO DE ERRO
-#APLICAÇÃO ESPECIFICAR O ERRO QUE FOI DADO, COM MAIS CLAREZA.
-
-#PARA QUESTAO DO ARQUIVO
-#arquivo = open("arquivo.txt","r")
-#print(arquivo.read())
-#arquivo.close()
-
-
-# --------------------
-#EXERCÍCIO ERROS E EXCEÇÕES
-
 #01 Escreva um programa que peça ao usuário para digitar um número. Trate o erro caso ele digite algo que não seja um número inteiro.
 try:
     usuariox = int(input("Informe um número"))
@@ -94,7 +57,7 @@ def cadastrar_idade(idade):
     if idade <= 0:
         raise IdadeInvalidaError("Não pode ser negativa")
     else:
-        return f"Sua idade é {idade}"
+        return f"Sua idade é {idade} anos"
 print(cadastrar_idade(idade))
 #07
 try:

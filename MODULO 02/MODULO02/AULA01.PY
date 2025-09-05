@@ -42,19 +42,19 @@
 
 #Lista Funções
 
-#1
-def saudacao():
-  print("Olá, bem-vindo ao Python!")
-saudacao()
+# #1
+# def saudacao():
+#   print("Olá, bem-vindo ao Python!")
+# saudacao()
 
-#2
-def dobro(num1):
-  return num1*2
+# #2
+# def dobro(num1):
+#   return num1*2
 
-resultado = dobro(7)
-print(resultado)
+# resultado = dobro(7)
+# print(resultado)
 
-#3
-# def soma(num1+num2):
-#   return(num1+num2)
+# #3
+# # def soma(num1+num2):
+# #   return(num1+num2)
 

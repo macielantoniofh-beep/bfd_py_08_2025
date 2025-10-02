@@ -1,7 +1,6 @@
 '''
 Classe abstrata
 Interfaces
-Solid
 
 01 classe abstrata Pessoa - com metodos Falar, Andar e Comer
 subclasses Funcionário e Aluno - herdando métodos Pessoa
@@ -70,3 +69,9 @@ antonio.falar()
 antonio.andar()
 antonio.comer()
 
+'''
+SOLID  **** determinação das classes - separação conforme
+5 principios 
+
+
+'''

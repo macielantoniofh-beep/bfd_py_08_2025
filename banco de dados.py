@@ -13,6 +13,11 @@ ctrl + shift + Q
 
 SELECT indicando a coluna (atributos) COUNT () AS e coluna conta registros
 
+* PEGA TODAS AS COLUNAS
+
+
+
+
 FROM vai para a tabela
 
 WHERE DEPOIS DO FROM  faz busca (filtro) exata pelo nome ou dados que solicite
@@ -70,6 +75,14 @@ ON
 
 
 Atividade Banco de Dados
+
+PROXIMA AULA
+SQLIT3 - DRIVER
+
+E TEM SQL ALQUEMY
+
+
+
 
 
 '''

@@ -1,0 +1,5 @@
+--SELECT 22
+
+SELECT *
+FROM Aluno
+INNER JOIN Turma

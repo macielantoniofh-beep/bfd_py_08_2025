@@ -25,5 +25,5 @@ ou acessar pelo atlas
 '''
 import pymongo
 
-cliente = pymongo.MongoClient("mongodb+srv://macielantoniofh_db_user:7ST9rHW0at7kKzuf@fh.qbdsv9c.mongodb.net/?appName=Fh")
+cliente = pymongo.MongoClient("mongodb+srv://macielantoniofh_db_user:<>@fh.qbdsv9c.mongodb.net/?appName=Fh")
 print(cliente)
